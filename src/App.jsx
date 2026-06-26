@@ -368,7 +368,7 @@ function Timeline({ items }) {
 function ExperienceSection() {
   const items = experience.map((e) => ({ title: e.role, period: e.period, org: e.org, points: e.points }))
   return (
-    <Section id="experience" kicker="Internship Experience" title="Where I've interned">
+    <Section id="experience" kicker="Internship Experience" title="Where I've worked">
       <Timeline items={items} />
     </Section>
   )
