@@ -3,6 +3,15 @@ import Lenis from 'lenis'
 import 'lenis/dist/lenis.css'
 import { profile, about, skills, projects, experience, education } from './data.js'
 
+// Render **bold** markers in content strings as <strong> for keyword emphasis.
+function rich(text) {
+  return String(text).split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
+    part.startsWith('**') && part.endsWith('**')
+      ? <strong key={i}>{part.slice(2, -2)}</strong>
+      : part,
+  )
+}
+
 /* ============================================================================
    Scroll-driven dreamscape — the base color + the three glow blobs interpolate
    between these light-green "scenes" as you scroll down the page.
@@ -275,7 +284,7 @@ function Hero() {
         <p className="hero__eyebrow"><span className="hero__pin" /> {profile.availability}</p>
         <h1 className="hero__name">{profile.name}<span className="hero__period">.</span></h1>
         <p className="hero__role">{profile.roles.join(' · ')}</p>
-        <p className="hero__tag">{profile.tagline}</p>
+        <p className="hero__tag">{rich(profile.tagline)}</p>
         <div className="hero__cta">
           {profile.resume && (
             <a className="btn btn--solid" href={profile.resume} target="_blank" rel="noreferrer">Download Résumé</a>
@@ -304,7 +313,7 @@ function About() {
     <Section id="about" kicker="Profile" title="A little about me">
       <div className="cards cards--about">
         <article className="card card--about reveal">
-          {about.paragraphs.map((p, i) => <p key={i} className="prose">{p}</p>)}
+          {about.paragraphs.map((p, i) => <p key={i} className="prose">{rich(p)}</p>)}
         </article>
         <article className="card card--stats reveal" style={{ transitionDelay: '.1s' }}>
           {about.stats.map((s) => (
@@ -347,8 +356,8 @@ function Timeline({ items }) {
               <span className="card__when">{it.period}</span>
             </div>
             <p className="card__org">{it.org}</p>
-            {it.detail && <p className="prose prose--sm">{it.detail}</p>}
-            {it.points && <ul className="bullets">{it.points.map((pt, j) => <li key={j}>{pt}</li>)}</ul>}
+            {it.detail && <p className="prose prose--sm">{rich(it.detail)}</p>}
+            {it.points && <ul className="bullets">{it.points.map((pt, j) => <li key={j}>{rich(pt)}</li>)}</ul>}
           </article>
         </div>
       ))}
@@ -373,7 +382,7 @@ function Projects() {
           <article className="card card--feature reveal" key={p.title}>
             <span className="card__tag">{p.tag}</span>
             <h3 className="card__title">{p.title}</h3>
-            <p className="prose">{p.blurb}</p>
+            <p className="prose">{rich(p.blurb)}</p>
             <div className="pills">{p.tech.map((t) => <span className="pill" key={t}>{t}</span>)}</div>
           </article>
         ))}

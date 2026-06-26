@@ -14,21 +14,21 @@ export const profile = {
     'Data Analyst',
   ],
   tagline:
-    'Health Data Science MSc at UCL with a biology foundation from Imperial. I build clinical NLP pipelines, causal ML models, and AI agents that turn complex data into decisions.',
+    'Health Data Science MSc at UCL with a biology foundation from Imperial. I build **clinical NLP pipelines**, **causal ML models**, and **AI agents** that turn complex data into decisions.',
   location: 'London, UK',
   email: 'zhuoyansun41@gmail.com',
   phone: '+44 (0)7422 426924',
   availability: 'Open to Data Science / ML & AI Engineer roles',
   resume: `${import.meta.env.BASE_URL}Zhuoyan_Sun_Resume.pdf`,
   links: [
-    { type: 'linkedin', label: 'LinkedIn', url: 'https://linkedin.com/in/zhuoyansun' },
+    { type: 'linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/zhuoyan-jennifer-sun-8b6558297/' },
   ],
 }
 
 export const about = {
   paragraphs: [
-    "I'm a data scientist working at the intersection of machine learning, AI, and healthcare. Currently pursuing an MSc in Health Data Science at UCL, with a BSc in Biological Sciences from Imperial College London — a path that took me from molecular dynamics simulations to clinical NLP and causal modeling.",
-    "I love the full arc of a data problem: wrangling messy, real-world data, engineering features, building and validating models, and translating the results into something a human can actually act on. Lately that means fine-tuning clinical language models, designing causal ML for preventive healthcare, and building multi-agent AI systems.",
+    "I'm a data scientist working at the intersection of **machine learning, AI, and healthcare**. Currently pursuing an **MSc in Health Data Science at UCL**, with a **BSc in Biological Sciences from Imperial College London** — a path that took me from molecular dynamics simulations to clinical NLP and causal modeling.",
+    "I love the full arc of a data problem: wrangling messy, real-world data, engineering features, building and validating models, and translating the results into something a human can actually act on. Lately that means **fine-tuning clinical language models**, designing **causal ML for preventive healthcare**, and building **multi-agent AI systems**.",
   ],
   stats: [
     { value: '15+', label: 'Projects' },
@@ -65,7 +65,7 @@ export const projects = [
     title: 'Clinical NLP & LLM Pipeline for Radiology',
     tag: 'AI / LLM',
     blurb:
-      'NLP pipeline using Hugging Face Transformers to parse radiology reports into structured features. Fine-tuned ClinicalBERT-style models for representation learning, and built an evaluation framework surfacing failure modes in vision-language systems.',
+      'NLP pipeline using **Hugging Face Transformers** to parse radiology reports into structured features. Fine-tuned **ClinicalBERT-style models** for representation learning, and built an **evaluation framework** surfacing failure modes in vision-language systems.',
     tech: ['Hugging Face', 'ClinicalBERT', 'NLP', 'Model Eval'],
     featured: true,
   },
@@ -73,7 +73,7 @@ export const projects = [
     title: 'Causal ML for Cardiovascular Risk Simulation',
     tag: 'Machine Learning',
     blurb:
-      'End-to-end ML pipeline on longitudinal biobank data with multi-timepoint features predicting cardiovascular risk. Built predictive and causal models for individual-level counterfactual risk estimates, with a simulation-driven webpage for preventive care.',
+      'End-to-end ML pipeline on **longitudinal biobank data** with multi-timepoint features predicting cardiovascular risk. Built predictive and **causal models** for **individual-level counterfactual risk estimates**, with a simulation-driven webpage for preventive care.',
     tech: ['Causal ML', 'PyTorch', 'Simulation', 'Biobank'],
     featured: true,
   },
@@ -81,7 +81,7 @@ export const projects = [
     title: 'Jobwinner — Multi-Agent AI App',
     tag: 'AI / LLM',
     blurb:
-      'A multi-agent AI application for the job search with differentiated agent personas, evidence-backed reasoning, and live web search. Maintained in its own repository.',
+      'A **multi-agent AI application** for the job search with differentiated agent personas, **evidence-backed reasoning**, and **live web search**. Maintained in its own repository.',
     tech: ['LLM Agents', 'Multi-agent', 'Web Search', 'Python'],
     featured: true,
   },
@@ -93,8 +93,8 @@ export const experience = [
     org: 'Ipsos Strategy3',
     period: 'May 2025 — Aug 2025 · Beijing, CN',
     points: [
-      'Analyzed large-scale healthcare and consumer datasets from 100+ expert interviews to extract quantitative trends and evidence-based market insights.',
-      'Performed data-driven market sizing and predictive modeling to estimate $20M revenue potential across emerging health product segments.',
+      'Analyzed large-scale healthcare and consumer datasets from **100+ expert interviews** to extract quantitative trends and evidence-based market insights.',
+      'Performed data-driven market sizing and predictive modeling to estimate **$20M revenue potential** across emerging health product segments.',
       'Translated analytical findings into business recommendations and executive dashboards with cross-functional data, research, and strategy teams.',
     ],
   },
@@ -104,7 +104,7 @@ export const experience = [
     period: 'Sep 2024 — Dec 2024 · Hangzhou, CN',
     points: [
       'Applied Python and R to process and integrate multi-omics datasets exploring epigenetic changes in aging skin stem cells.',
-      'Optimized bioinformatics pipelines, reducing computation time by 60% and improving data reproducibility.',
+      'Optimized bioinformatics pipelines, reducing computation time by **60%** and improving data reproducibility.',
       'Presented research findings to senior scientists, translating complex technical results into actionable biological insights.',
     ],
   },
@@ -112,14 +112,14 @@ export const experience = [
 
 export const education = [
   {
-    degree: 'MSc Health Data Science',
+    degree: 'MSc Health Data Science (First-Class)',
     org: 'University College London',
     period: 'Sep 2025 — Present · London, UK',
     detail:
       'Core modules: Data Science & Statistics, Artificial Intelligence in Healthcare, Advanced Machine Learning for Healthcare, Advanced Data Science & Statistics.',
   },
   {
-    degree: 'BSc Biological Sciences (First-Class)',
+    degree: 'BSc Biological Sciences',
     org: 'Imperial College London',
     period: 'Sep 2021 — Jun 2024 · London, UK',
     detail:
