@@ -89,6 +89,16 @@ export const projects = [
 
 export const experience = [
   {
+    role: 'Data Scientist (AI Agent)',
+    org: 'DS Digital Technology',
+    period: 'July 2026 — Present · Hangzhou, CN',
+    points: [
+      'Developed **AI Agent and RAG prototypes** for enterprise knowledge retrieval, workflow automation, and decision support.',
+      'Implemented **document processing, embedding retrieval, prompt design, LLM generation, evaluation, and API integration**.',
+      'Supported client-facing AI solution design through data analysis, metric definition, and cross-functional collaboration.',
+    ],
+  },
+  {
     role: 'Associate Strategy Analyst',
     org: 'Ipsos Strategy3',
     period: 'May 2025 — Aug 2025 · Beijing, CN',
