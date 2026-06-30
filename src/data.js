@@ -14,7 +14,7 @@ export const profile = {
     'Data Analyst',
   ],
   tagline:
-    'Health Data Science MSc at UCL with a biology foundation from Imperial. I build **clinical NLP pipelines**, **causal ML models**, and **AI agents** that turn complex data into decisions.',
+    'AI in healthcare MSc at UCL with a biology foundation from Imperial. Build **clinical NLP pipelines**, **causal ML models**, and **AI agents** that turn complex data into decisions',
   location: 'London, UK',
   email: 'zhuoyansun41@gmail.com',
   phone: '+44 (0)7422 426924',
