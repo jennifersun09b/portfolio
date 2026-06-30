@@ -27,13 +27,13 @@ export const profile = {
 
 export const about = {
   paragraphs: [
-    "I'm a data scientist working at the intersection of **machine learning, AI, and healthcare**. Currently pursuing an **MSc in Health Data Science at UCL**, with a **BSc in Biological Sciences from Imperial College London** — a path that took me from molecular dynamics simulations to clinical NLP and causal modeling.",
-    "I love the full arc of a data problem: wrangling messy, real-world data, engineering features, building and validating models, and translating the results into something a human can actually act on. Lately that means **fine-tuning clinical language models**, designing **causal ML for preventive healthcare**, and building **multi-agent AI systems**.",
+    "I'm a data scientist and AI engineer working at the intersection of **machine learning, AI, and healthcare**. Currently completing an **MSc in Health Data Science at UCL**, with a **BSc in Biological Sciences from Imperial College London** — a path that took me from bioinformatics to building ML and AI systems in healthcare.",
+    "I like owning the full arc of a problem: wrangling messy, real-world data, engineering features, training and validating models, and shipping the results into something a human can actually act on. Lately that means **fine-tuning clinical language models**, designing **causal ML for preventive healthcare**, and building **multi-agent AI and RAG systems**.",
   ],
   stats: [
-    { value: '15+', label: 'Projects' },
-    { value: '4', label: 'Disciplines' },
-    { value: '2', label: 'Top universities' },
+    { value: '5+', label: 'Projects' },
+    { value: '3', label: 'Internships' },
+    { value: '2nd', label: 'Top university' },
   ],
 }
 
