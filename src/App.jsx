@@ -318,7 +318,7 @@ function About() {
         <article className="card card--stats reveal" style={{ transitionDelay: '.1s' }}>
           {about.stats.map((s) => (
             <div className="stat" key={s.label}>
-              <div className="stat__value">{s.value}</div>
+              <div className="stat__value">{s.value}{s.sup && <sup className="stat__sup">{s.sup}</sup>}</div>
               <div className="stat__label">{s.label}</div>
             </div>
           ))}

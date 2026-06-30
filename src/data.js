@@ -33,7 +33,7 @@ export const about = {
   stats: [
     { value: '5+', label: 'Projects' },
     { value: '3', label: 'Internships' },
-    { value: '2nd', label: 'Top university' },
+    { value: '2', sup: 'nd', label: 'Top university' },
   ],
 }
 
