@@ -22,6 +22,7 @@ export const profile = {
   resume: `${import.meta.env.BASE_URL}resume1.pdf`,
   links: [
     { type: 'linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/zhuoyan-jennifer-sun-8b6558297/' },
+    { type: 'github', label: 'GitHub', url: 'https://github.com/jennifersun09b' },
   ],
 }
 
