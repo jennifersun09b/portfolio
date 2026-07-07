@@ -67,6 +67,7 @@ export const projects = [
     blurb:
       'Benchmarked traditional vs. transformer NLP for classifying **8,900+ patient questions** across **900+ diseases** (NHS-derived dataset). Pitted a **TF-IDF + kNN** baseline against fine-tuned **BERT, BioBERT, and PubMedBERT** — biomedical domain pre-training won, with **PubMedBERT reaching 0.63 accuracy** vs. 0.38 for the baseline.',
     tech: ['Hugging Face', 'PubMedBERT', 'PyTorch', 'scikit-learn', 'NLP'],
+    repo: 'https://github.com/jennifersun09b/patient-question-classification',
     featured: true,
   },
   {
@@ -91,6 +92,7 @@ export const projects = [
     blurb:
       'A **multi-agent AI application** for the job search with differentiated agent personas, **evidence-backed reasoning**, and **live web search**. Maintained in its own repository.',
     tech: ['LLM Agents', 'Multi-agent', 'Web Search', 'Python'],
+    repo: 'https://github.com/jennifersun09b/Jobwinner',
     featured: true,
   },
 ]
