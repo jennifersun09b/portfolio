@@ -62,6 +62,14 @@ export const skills = [
 
 export const projects = [
   {
+    title: 'Patient Question Classification: TF-IDF vs. BERT',
+    tag: 'AI / LLM',
+    blurb:
+      'Benchmarked traditional vs. transformer NLP for classifying **8,900+ patient questions** across **900+ diseases** (NHS-derived dataset). Pitted a **TF-IDF + kNN** baseline against fine-tuned **BERT, BioBERT, and PubMedBERT** — biomedical domain pre-training won, with **PubMedBERT reaching 0.63 accuracy** vs. 0.38 for the baseline.',
+    tech: ['Hugging Face', 'PubMedBERT', 'PyTorch', 'scikit-learn', 'NLP'],
+    featured: true,
+  },
+  {
     title: 'Clinical NLP & LLM Pipeline for Radiology',
     tag: 'AI / LLM',
     blurb:
