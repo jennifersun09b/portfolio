@@ -19,7 +19,7 @@ export const profile = {
   email: 'zhuoyansun41@gmail.com',
   phone: '+44 (0)7422 426924',
   availability: 'Open to Data Science / ML & AI Engineer roles',
-  resume: `${import.meta.env.BASE_URL}Zhuoyan_Sun_Resume.pdf`,
+  resume: `${import.meta.env.BASE_URL}resume1.pdf`,
   links: [
     { type: 'linkedin', label: 'LinkedIn', url: 'https://www.linkedin.com/in/zhuoyan-jennifer-sun-8b6558297/' },
   ],
