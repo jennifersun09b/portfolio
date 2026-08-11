@@ -10,8 +10,7 @@ export const profile = {
   roles: [
     'Data Scientist',
     'ML Engineer',
-    'AI Agent Engineer',
-    'Data Analyst',
+    'AI Agent Engineer'
   ],
   tagline:
     'AI in healthcare MSc at UCL with a biology foundation from Imperial. Build **clinical NLP pipelines**, **causal ML models**, and **AI agents** that turn complex data into decisions',
@@ -47,7 +46,7 @@ export const skills = [
   {
     category: 'AI Agents & NLP',
     color: 'pink',
-    items: ['LLM Pipelines', 'Multi-agent Systems', 'ClinicalBERT', 'Prompt Engineering', 'RAG', 'Model Evaluation'],
+    items: ['LLM Pipelines', 'Multi-agent Systems', 'ClinicalBERT', 'Prompt Engineering', 'RAG', 'Model Evaluation', 'LangChain', 'OpenAI/Anthropic APIs'],
   },
   {
     category: 'Data & Viz',
@@ -133,14 +132,14 @@ export const experience = [
 
 export const education = [
   {
-    degree: 'MSc Health Data Science (First-Class)',
+    degree: 'MSc Health Data Science (Distinction)',
     org: 'University College London',
     period: 'Sep 2025 — Present · London, UK',
     detail:
       'Core modules: Data Science & Statistics, Artificial Intelligence in Healthcare, Advanced Machine Learning for Healthcare, Advanced Data Science & Statistics.',
   },
   {
-    degree: 'BSc Biological Sciences',
+    degree: 'BSc Biological Sciences (2:1)',
     org: 'Imperial College London',
     period: 'Sep 2021 — Jun 2024 · London, UK',
     detail:
