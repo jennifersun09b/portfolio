@@ -95,11 +95,34 @@ export const projects = [
     repo: 'https://github.com/jennifersun09b/Jobwinner',
     featured: true,
   },
+  {
+  title: 'Protein Molecular Dynamics and Membrane Binding',
+  tag: 'Computational Biology',
+  blurb:
+    'Investigated how a **point mutation alters protein structure, flexibility, and membrane binding** using AlphaFold2 and molecular dynamics simulations. Coarse-grained simulations identified previously unreported **protein-lipid pre-binding interactions** associated with membrane attack complex formation.',
+  tech: [
+    'AlphaFold2',
+    'Molecular Dynamics',
+    'Coarse-Grained Simulation',
+    'Structural Biology',
+  ],
+  featured: true,
+}
 ]
 
 export const experience = [
   {
-    role: 'Data Scientist (AI Agent)',
+  role: 'AI Data Scientist',
+  org: 'Curenetics',
+  period: 'Sep 2026 - Present · London, UK',
+  points: [
+    'Analyse and integrate multimodal biomedical data, including omics, imaging, and patient records.',
+    'Develop and evaluate machine learning models for treatment response, including quantum ML research with UKRI STFC.',
+    'Collaborate with clinicians, engineers, and researchers to translate validated findings into product features and technical outputs.',
+  ],
+},
+  {
+    role: 'Applied AI engineer',
     org: 'DS Digital Technology',
     period: 'July 2026 — Present · Hangzhou, CN',
     points: [
