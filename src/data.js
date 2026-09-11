@@ -116,7 +116,7 @@ export const experience = [
   org: 'Tiktok',
   period: 'Sep 2026 - Present · London, UK',
   points: [
-    'Mine large-scale merchant and transaction data in SQL and Python to surface growth insights that shape TikTok Shop’s market-entry and expansion strategy in the UK',
+    'Mine large-scale merchant and transaction data in **SQL** and **Python** to surface growth insights that shape TikTok Shop’s market-entry and expansion strategy in the UK',
     'Analyse merchant growth and operations performance to identify key drivers, and build KPI frameworks used by e-commerce teams to set targets and track initiatives',
     'Translate findings into strategy recommendations and implementation roadmaps for cross-functional operations, product and commercial stakeholders',
   ],
