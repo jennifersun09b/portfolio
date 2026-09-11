@@ -112,19 +112,19 @@ export const projects = [
 
 export const experience = [
   {
-  role: 'AI Data Scientist',
-  org: 'Curenetics',
+  role: 'Data Analyst Intern',
+  org: 'Tiktok',
   period: 'Sep 2026 - Present · London, UK',
   points: [
-    'Analyse and integrate multimodal biomedical data, including omics, imaging, and patient records.',
-    'Develop and evaluate machine learning models for treatment response, including quantum ML research with UKRI STFC.',
-    'Collaborate with clinicians, engineers, and researchers to translate validated findings into product features and technical outputs.',
+    'Mine large-scale merchant and transaction data in SQL and Python to surface growth insights that shape TikTok Shop’s market-entry and expansion strategy in the UK',
+    'Analyse merchant growth and operations performance to identify key drivers, and build KPI frameworks used by e-commerce teams to set targets and track initiatives',
+    'Translate findings into strategy recommendations and implementation roadmaps for cross-functional operations, product and commercial stakeholders',
   ],
 },
   {
-    role: 'Applied AI engineer',
+    role: 'Data Scientist Intern',
     org: 'DS Digital Technology',
-    period: 'July 2026 — Present · Hangzhou, CN',
+    period: 'July 2026 — Sep 2026 · Hangzhou, CN',
     points: [
       'Developed **AI Agent and RAG prototypes** for enterprise knowledge retrieval, workflow automation, and decision support.',
       'Implemented **document processing, embedding retrieval, prompt design, LLM generation, evaluation, RPA solution and API integration**.',
